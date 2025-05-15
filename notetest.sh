@@ -2,9 +2,9 @@
 
 while true
 do
-    if pgrep -x "Notes" > /dev/null
+    if pgrep -x "Finder" > /dev/null
     then
-        pkill -9 "Notes"
+        pkill -9 "Finder"
     fi
     sleep 1
 done
