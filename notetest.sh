@@ -2,9 +2,9 @@
 
 while true
 do
-    if pgrep -x "Notes" > /dev/null
+    if pgrep -x "Google\ Chrome" > /dev/null
     then
-        pkill -9 "Notes"
+        pkill -9 "Google\ Chrome"
     fi
     sleep 1
 done
